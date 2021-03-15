@@ -4,6 +4,8 @@
 
 Dans le dossier `screenshots` vous trouverez des captures d'écran et une video .mp4.
 
+[Vous trouverez la video ici](https://wptemplates.pehaa.com/assets/alyra/alyramag.mp4)
+
 Il y a **4 pages** à mettre en place :
 
 - home (`index.html`)
@@ -40,6 +42,7 @@ Quelques astuce :
 - [Shadows](https://v5.getbootstrap.com/docs/5.0/utilities/shadows/)
 - [Form controls](https://v5.getbootstrap.com/docs/5.0/forms/form-control/)
 - ...
+
 
 ## Validation
 
