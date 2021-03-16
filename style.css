@@ -1,0 +1,9 @@
+ h1,
+    h2,
+    p {
+      font-family: 'Libre Baskerville', serif;
+    }
+
+.text-secondary {
+  font-family: 'Montserrat', sans-serif;
+}
