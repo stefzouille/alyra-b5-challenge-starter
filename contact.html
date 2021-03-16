@@ -58,35 +58,130 @@
 </nav>
 
 <body>
-  <article class="my-5 p-4 shadow mx-4">
-    <img src="images/big_image_1.jpg" class="p-4 img-fluid" alt="contact us">
-    <h2 class="fw-bold text-center">Contact Us</h2>
-    <p class="text-center text-secondary">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus
-      mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
-      magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-      condimentum nibh, ut fermentum massa justo sit amet risus.
-    </p>
-    <form>
-      <div class="mb-3">
-        <label for="name" class="form-label text-secondary">Name*</label>
-        <input type="text" class="form-control border-primary" id="name" aria-describedby="name" required>
-      </div>
-      <div class="mb-3">
-        <label for="phone" class="form-label text-secondary">Phone</label>
-        <input type="tel" class="form-control border-info" id="phone" aria-describedby="name">
-      </div>
-      <div class="mb-3">
-        <label for="email" class="form-label text-secondary">Email* </label>
-        <input type="email" class="form-control border-danger" id="email" aria-describedby="emailHelp" required>
-      </div>
-      <div class="mb-3">
-        <label for="message" class="form-label text-secondary">Write Message</label>
-        <textarea class="form-control border-warning" id="message" rows="3"></textarea>
-      </div>
-      <button type="submit" class="btn btn-dark">Send Message</button>
-    </form>
-  </article>
+  <main class="container">
+    <div class="row">
+      <article class="my-5 p-4 shadow mx-4 p-5 col-lg-8">
+        <img src="images/big_image_1.jpg" class="p-4 img-fluid" alt="contact us">
+        <h2 class="fw-bold text-center">Contact Us</h2>
+        <p class="text-center text-secondary">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus
+          mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
+          magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+          condimentum nibh, ut fermentum massa justo sit amet risus.
+        </p>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label text-secondary">Name*</label>
+            <input type="text" class="form-control border-primary" id="name" aria-describedby="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label text-secondary">Phone</label>
+            <input type="tel" class="form-control border-info" id="phone" aria-describedby="name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label text-secondary">Email* </label>
+            <input type="email" class="form-control border-danger" id="email" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label text-secondary">Write Message</label>
+            <textarea class="form-control border-warning" id="message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark">Send Message</button>
+        </form>
+      </article>
+
+      <aside class="col-lg-3">
+        <section>
+          <!--search bar-->
+          <div class="mb-3 input-group">
+            <button id="search-button " type="button" class="btn bg-secondary ms-3">
+              <i class="fas fa-search"></i>
+            </button>
+
+
+            <input id="--search" type="text" class="form-control me-3 rounded-end border-danger"
+              placeholder=" Search here...">
+            <span class="input-group-append ">
+
+            </span>
+          </div>
+        </section>
+        <section class="text-center shadow ">
+          <!--David craig-->
+          <img class="rounded-circle p-3" src="./images/person_1.jpg" width="200"><br>
+
+          <h2 class="m-4">Davida Craig</h2>
+          <p class="text-center mx-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Exercitationem
+            facilis sunt
+            repellendus excepturi
+            beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
+          <a href="blog-single.html" class="btn bg-dark text-white-50 m-1 ">Read my bio</a>
+          <div class=" pb-5">
+            <i class="fab fa-facebook-f m-3"></i>
+            <i class="fab fa-twitter m-3"></i>
+            <i class="fab fa-instagram m-3"></i>
+            <i class="fab fa-youtube m-3"></i>
+          </div>
+        </section>
+        <section class="shadow ">
+          <!--popular posts-->
+          <h2 class="fw-bold">Popular Posts</h2>
+          <article class="position-relative ">
+            <img class="img-fluid " src="./images/img_2.jpg" width="100">
+            <p class="text-secondary position-absolute d-inline-flex">March 15, 2020</p>
+            <p class="fw-bold position-absolute d-inline-flex p-2 pt-5">How to find the video Games of Your Youth</p>
+          </article>
+          <article class="position-relative">
+            <img class=" img-fluid " src="./images/img_4.jpg" width="100">
+            <p class="text-secondary position-absolute d-inline-flex ">March 15, 2020</p>
+            <p class="fw-bold position-absolute d-inline-flex p-2 pt-5">How to find the video Games of Your Youth</p>
+          </article>
+          <article class="position-relative">
+            <img class=" img-fluid " src="./images/img_12.jpg" width="100">
+            <p class="text-secondary position-absolute d-inline-flex">March 15, 2020</p>
+            <p class="fw-bold position-absolute d-inline-flex p-2 pt-5">How to find the video Games of Your Youth</p>
+          </article>
+        </section>
+        <section class="my-5 p-3 shadow ">
+          <!--categories-->
+          <h2 class="fw-bold">Categories</h2>
+          <ul class="btn list-group list-group-flush text-muted fw-bold">
+            <li href="#" class="list-group-item d-flex justify-content-between align-items-center">Food<span>(12)</span>
+            </li>
+            <li href="#" class="list-group-item d-flex justify-content-between align-items-center">
+              Travel<span>(22)</span>
+            </li>
+            <li href="#" class="list-group-item d-flex justify-content-between align-items-center">
+              Lifestyle<span>(37)</span></li>
+            <li href="#" class="list-group-item d-flex justify-content-between align-items-center">
+              Business<span>(42)</span>
+            </li>
+            <li href="./cater" class="list-group-item d-flex justify-content-between align-items-center">
+              Adventure<span>(14)</span></li>
+          </ul>
+        </section>
+        <section class=" my-5 p-3 shadow ">
+          <!--tags-->
+          <div class="text-start">
+            <h2 class="fw-bold">Tags</h2>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">Travel</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">Adventure</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">Food</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">Lifestyle</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">business</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">Freelancing</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">Travel</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">Adventure</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">Food</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">Lifestyle</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">business</a>
+            <a href="./category.html" class="btn bg-secondary text-white m-1">Freelancing</a>
+
+
+          </div>
+      </aside>
+    </div>
+  </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
