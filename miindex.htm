@@ -1,32 +1,33 @@
-<!DOCTYPE html>
-<!-- -->
+<!DOCTYPE html> <!-- -->
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AlyraMag</title>
   <!--bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <!--police baskerville 700 et montserrat 300 -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Montserrat:wght@300&display=swap"
-    rel="stylesheet" />
+    rel="stylesheet">
   <script src="https://kit.fontawesome.com/241cd41ee1.js" crossorigin="anonymous"></script>
   <!-- liens des autres pages-->
-  <link rel="import" href="blog-single.html" />
-  <link rel="import" href="category.html" />
-  <link rel="import" href="contact.html" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="import" href="blog-single.html">
+  <link rel="import" href="category.html">
+  <link rel="import" href="contact.html">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
   <!-- navbar-->
+
   <h1 class="text-center fw-bolder">AlyraMag</h1>
 
-  <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,12 +36,10 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./blog-single.html">Travel</a>
-          </li>
-
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
               aria-expanded="false">Categories</a>
@@ -61,7 +60,7 @@
   </nav>
 
   <header>
-    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="carousel" class="carousel slide m-4" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
           aria-label="Slide 1"></button>
@@ -70,30 +69,38 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/big_image_1.jpg" class="d-block w-100" alt="Man with pc" />
+          <img src="./images/big_image_1.jpg" class="d-block w-100" alt="Man with pc">
           <div class="carousel-caption bg-dark text-white">
             <h5 class="text-white-50">Sports</h5>
             <p class="fs-4 mx-4">How to Find the Video Games of Your Youth</p>
             <p class="text-white-50 fw-light fs-6 mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-              nobis, ut dicta eaque ipsa laudantium!</p>
+              nobis,
+              ut dicta
+              eaque ipsa laudantium!</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/big_image_3.jpg" class="d-block w-100" alt="A square" />
+          <img src="./images/big_image_3.jpg" class="d-block w-100" alt="A square">
           <div class="carousel-caption bg-dark text-white">
             <h5 class="text-white-50">Sports</h5>
             <p class="fs-4 mx-4">How to Find the Video Games of Your Youth</p>
             <p class="text-white-50 fw-light fs-6 mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-              nobis, ut dicta eaque ipsa laudantium!</p>
+              nobis,
+              ut dicta
+              eaque ipsa laudantium!
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/img_3.jpg" class="d-block w-100" alt="Man take a photo" />
+          <img src="./images/img_3.jpg" class="d-block w-100" alt="Man take a photo">
           <div class="carousel-caption bg-dark text-white">
             <h5 class="text-white-50">Sports</h5>
             <p class="fs-4 mx-4">How to Find the Video Games of Your Youth</p>
             <p class="text-white-50 fw-light fs-6 mx-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-              nobis, ut dicta eaque ipsa laudantium!</p>
+              nobis,
+              ut dicta
+              eaque ipsa laudantium!
+            </p>
           </div>
         </div>
       </div>
@@ -106,179 +113,148 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <img id="caroussel" img src="./big_image_1">
+    <div id="caroussel" img src="./big_image_1"></div>
   </header>
 
-  <main class="container test w-100 p-0 d-flex">
-    <div class="row col-12 align-items-start justify-content-start">
-      <section class="row col-md-12 col-lg-9 test align-items-start justify-content-start">
+  <main class="container">
+    <div class="row">
+      <section class="container p-5 col-lg-9">
         <h2 class="fw-bold ms-3 mt-5 mb-1">Latest Posts</h2>
-
-        <article class="px-2 col-md-6 col-lg-4">
-          <div class="article-content shadow">
+        <div class="row">
+          <article class=" my-5 px-0 shadow mx-4   col-md-4 col-lg-3 ">
             <img src="./images/img_1.jpg" class="img-fluid" />
-            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80" />
+            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80">
             <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
             <!--time-->
-            <p class="fw-bold p-3">How to find the video Games of Your Youth</p>
-          </div>
-        </article>
-
-        <article class="px-2 col-md-6 col-lg-4">
-          <div class="article-content shadow">
+            <p class="fw-bold px-3">How to find the video Games of Your Youth</p>
+          </article>
+          <article class="my-5 px-0 shadow mx-4  col-md-4 col-lg-3">
             <img src="./images/img_2.jpg" class="img-fluid" />
-            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80" />
+            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80">
             <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
             <!--time-->
-            <p class="fw-bold p-3">How to find the video Games of Your Youth</p>
-          </div>
-        </article>
+            <p class=" fw-bold px-3">How to find the video Games of Your Youth</p>
 
-        <article class="px-2 col-md-6 col-lg-4">
-          <div class="article-content shadow">
-            <img src="./images/img_3.jpg" class="img-fluid" />
-            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80" />
-            <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
-            <!--time-->
-            <p class="fw-bold p-3">How to find the video Games of Your Youth</p>
-          </div>
-        </article>
-
-        <article class="px-2 col-md-6 col-lg-4">
-          <div class="article-content shadow">
-            <img src="./images/img_4.jpg" class="img-fluid" />
-            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80" />
-            <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
-            <!--time-->
-            <p class="fw-bold p-3">How to find the video Games of Your Youth</p>
-          </div>
-        </article>
-        <article class="px-2 col-md-6 col-lg-4">
-          <div class="article-content shadow">
+          </article>
+          <article class="my-5 px-0 shadow mx-4 c col-md-4 col-lg-3">
             <img src="./images/img_5.jpg" class="img-fluid" />
-            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80" />
+            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80">
             <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
             <!--time-->
-            <p class="fw-bold p-3">How to find the video Games of Your Youth</p>
-          </div>
-        </article>
-        <article class="px-2 col-md-6 col-lg-4">
-          <div class="article-content shadow">
-            <img src="./images/img_6.jpg" class="img-fluid" />
-            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80" />
-            <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
-            <!--time-->
-            <p class="fw-bold p-3">How to find the video Games of Your Youth</p>
-          </div>
-        </article>
+            <p class="fw-bold px-3">How to find the video Games of Your Youth</p>
 
-        <article class="px-2 col-md-6 col-lg-4">
-          <div class="article-content shadow">
+          </article>
+          <article class="my-5 px-0 shadow mx-4 col-md-4 col-lg-3">
+            <img src="./images/img_3.jpg" class="img-fluid" />
+            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80">
+            <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
+            <!--time-->
+            <p class="fw-bold px-3">How to find the video Games of Your Youth</p>
+
+          </article>
+          <article class="my-5 px-0 shadow mx-4 col-md-4 col-lg-3">
             <img src="./images/img_7.jpg" class="img-fluid" />
-            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80" />
+            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80">
             <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
             <!--time-->
-            <p class="fw-bold p-3">How to find the video Games of Your Youth</p>
-          </div>
-        </article>
-        <article class="px-2 col-md-6 col-lg-4">
-          <div class="article-content shadow">
+            <p class="fw-bold px-3">How to find the video Games of Your Youth</p>
+
+          </article>
+          <article class="my-5 px-0 shadow mx-4 col-md-4 col-lg-3">
             <img src="./images/img_8.jpg" class="img-fluid" />
-            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80" />
+            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80">
             <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
             <!--time-->
-            <p class="fw-bold p-3">How to find the video Games of Your Youth</p>
-          </div>
-        </article>
+            <p class="fw-bold px-3">How to find the video Games of Your Youth</p>
 
-        <article class="px-2 col-md-6 col-lg-4">
-          <div class="article-content shadow">
+          </article>
+          <article class="my-5 px-0 shadow mx-4 col-md-4 col-lg-3">
             <img src="./images/img_9.jpg" class="img-fluid" />
-            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80" />
+            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80">
             <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
             <!--time-->
-            <p class="fw-bold p-3">How to find the video Games of Your Youth</p>
-          </div>
-        </article>
+            <p class="fw-bold px-3">How to find the video Games of Your Youth</p>
 
-        <article class="px-2 col-md-6 col-lg-4">
-          <div class="article-content shadow">
+          </article>
+          <article class="my-5 px-0 shadow mx-4 col-md-4 col-lg-3">
             <img src="./images/img_10.jpg" class="img-fluid" />
-            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80" />
+            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80">
             <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
             <!--time-->
-            <p class="fw-bold p-3">How to find the video Games of Your Youth</p>
-          </div>
-        </article>
-      </section>
+            <p class="fw-bold px-3">How to find the video Games of Your Youth</p>
 
-      <aside class="col-lg-3 test2 ms-auto">
+          </article>
+          <article class="my-5 px-0 shadow mx-4 col-md-4 col-lg-3">
+            <img src="./images/img_11.jpg" class="img-fluid" />
+            <img class="rounded-circle p-3" src="./images/person_1.jpg" width="80">
+            <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
+            <!--time-->
+            <p class="fw-bold px-3">How to find the video Games of Your Youth</p>
+
+          </article>
+          <article class="m-5 px-0 shadow  mx-4 col-md-4 col-lg-3">
+            <img src="./images/img_12.jpg" class="img-fluid " />
+            <img class="rounded-circle p-3 " src="./images/person_1.jpg" width="80">
+            <p class="text-secondary float-end pt-3 px-3">March 15, 2020</p>
+            <!--time-->
+            <p class="fw-bold px-3">How to find the video Games of Your Youth</p>
+
+          </article>
+        </div>
+      </section>
+      <aside class="col-lg-3">
         <section>
           <!--search bar-->
-          <div class="mb-3 input-group mt-5">
+          <div class="mb-3 input-group">
             <button id="search-button " type="button" class="btn bg-secondary ms-3">
               <i class="fas fa-search"></i>
             </button>
 
+
             <input id="--search" type="text" class="form-control me-3 rounded-end border-danger"
-              placeholder=" Search here..." />
-            <span class="input-group-append"> </span>
+              placeholder=" Search here...">
+            <span class="input-group-append ">
+
+            </span>
           </div>
         </section>
-
-        <section class="text-center shadow mx-1">
+        <section class="text-center shadow ">
           <!--David craig-->
-          <img class="rounded-circle p-3" src="./images/person_1.jpg" width="200" /><br />
+          <img class="rounded-circle p-3" src="./images/person_1.jpg" width="200"><br>
 
-          <h2 class="m-4">David Craig</h2>
+          <h2 class="m-4">Davida Craig</h2>
           <p class="text-center mx-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Exercitationem
-            facilis sunt repellendus excepturi beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.
-          </p>
-          <a href="blog-single.html" class="btn bg-dark text-white-50 m-1">Read my bio</a>
-          <div class="mx-5 mt-3 pb-5">
+            facilis sunt
+            repellendus excepturi
+            beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
+          <a href="blog-single.html" class="btn bg-dark text-white-50 m-1 ">Read my bio</a>
+          <div class=" pb-5">
             <i class="fab fa-facebook-f m-3"></i>
             <i class="fab fa-twitter m-3"></i>
             <i class="fab fa-instagram m-3"></i>
             <i class="fab fa-youtube m-3"></i>
           </div>
         </section>
-
-        <section class="my-5 shadow mx-1 pl-0">
+        <section class="shadow ">
           <!--popular posts-->
-          <h2 class="fw-bold p-3">Popular Posts</h2>
-
-          <!-- <div class="card flex-row" style="">
-              <img class="card-img-left" src="./images/img_1.jpg" alt="Card image cap" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div> -->
-          <article class="m-3 d-flex gap-3 align-items-start">
-            <img class="img-fluid" src="./images/img_1.jpg" width="50%" />
-            <div class="post-right d-flex flex-column justify-content-start" width="20%">
-              <p class="text-secondary w-100">March 15, 2020</p>
-              <p class="fw-bold">How to find the video Games of Your Youth</p>
-            </div>
+          <h2 class="fw-bold">Popular Posts</h2>
+          <article class="position-relative ">
+            <img class="img-fluid " src="./images/img_2.jpg" width="100">
+            <p class="text-secondary position-absolute d-inline-flex">March 15, 2020</p>
+            <p class="fw-bold position-absolute d-inline-flex p-2 pt-5">How to find the video Games of Your Youth</p>
           </article>
-          <hr />
-          <article class="m-3 d-flex gap-3 align-items-start">
-            <img class="img-fluid" src="./images/img_2.jpg" width="50%" />
-            <div class="post-right d-flex flex-column justify-content-start" width="20%">
-              <p class="text-secondary w-100">March 15, 2020</p>
-              <p class="fw-bold">How to find the video Games of Your Youth</p>
-            </div>
+          <article class="position-relative">
+            <img class=" img-fluid " src="./images/img_4.jpg" width="100">
+            <p class="text-secondary position-absolute d-inline-flex ">March 15, 2020</p>
+            <p class="fw-bold position-absolute d-inline-flex p-2 pt-5">How to find the video Games of Your Youth</p>
           </article>
-          <hr />
-          <article class="m-3 d-flex gap-3 align-items-start">
-            <img class="img-fluid" src="./images/img_3.jpg" width="50%" />
-            <div class="post-right d-flex flex-column justify-content-start" width="20%">
-              <p class="text-secondary w-100">March 15, 2020</p>
-              <p class="fw-bold">How to find the video Games of Your Youth</p>
-            </div>
+          <article class="position-relative">
+            <img class=" img-fluid " src="./images/img_12.jpg" width="100">
+            <p class="text-secondary position-absolute d-inline-flex">March 15, 2020</p>
+            <p class="fw-bold position-absolute d-inline-flex p-2 pt-5">How to find the video Games of Your Youth</p>
           </article>
         </section>
-
-        <section class="my-5 shadow mx-1 p-3">
+        <section class="my-5 p-3 shadow ">
           <!--categories-->
           <h2 class="fw-bold">Categories</h2>
           <ul class="btn list-group list-group-flush text-muted fw-bold">
@@ -290,13 +266,13 @@
             <li href="#" class="list-group-item d-flex justify-content-between align-items-center">
               Lifestyle<span>(37)</span></li>
             <li href="#" class="list-group-item d-flex justify-content-between align-items-center">
-              Business<span>(42)</span></li>
-            <li href="./cater" class="list-group-item d-flex justify-content-between align-items-center">
+              Business<span>(42)</span>
+            </li>
+            <li href="#" class="list-group-item d-flex justify-content-between align-items-center">
               Adventure<span>(14)</span></li>
           </ul>
         </section>
-
-        <section class="my-5 shadow mx-1 p-3">
+        <section class=" my-5 p-3 shadow ">
           <!--tags-->
           <div class="text-start">
             <h2 class="fw-bold">Tags</h2>
@@ -312,25 +288,25 @@
             <a href="./category.html" class="btn bg-secondary text-white m-1">Lifestyle</a>
             <a href="./category.html" class="btn bg-secondary text-white m-1">business</a>
             <a href="./category.html" class="btn bg-secondary text-white m-1">Freelancing</a>
+
+
           </div>
-        </section>
       </aside>
     </div>
   </main>
-
   <footer class="bg-dark text-white text-center pt-4 pb-2">
-    <p>
-      &copy; 2020 Made with
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+    <p>&copy; 2020 Made with <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
         class="bi bi-heart-fill text-danger" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
-      </svg>
-      for Alyra
-    </p>
+      </svg> for Alyra</p>
+
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
     crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>
